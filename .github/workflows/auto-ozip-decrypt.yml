@@ -14,14 +14,14 @@ on:
     types: [started]
 
 env:
-  FIRMWARE_LINK: https://download.c.realme.com/osupdate/RMX1851EX_11_OTA_1100_all_afysQxXkAd0p.ozip
-  FIRMWARE_NAME: RMX1851EX_11_OTA_1100_all_afysQxXkAd0p.ozip
-  FIRMWARE_ZIP_NAME: RMX1851EX_11_OTA_1100_all_afysQxXkAd0p
+  FIRMWARE_LINK: https://download.c.realme.com/osupdate/RMX2076PU_11_OTA_0410_all_2rHJeJBmtJF0.ozip
+  FIRMWARE_NAME: RMX2076PU_11_OTA_0410_all_2rHJeJBmtJF0.ozip
+  FIRMWARE_ZIP_NAME: RMX2076PU_11_OTA_0410_all_2rHJeJBmtJF0
   TZ: Asia/Kolkata
 
 jobs:
   build:
-    runs-on: ubuntu-18.04
+    runs-on: windows
 
     steps:
        - name: Checkout
